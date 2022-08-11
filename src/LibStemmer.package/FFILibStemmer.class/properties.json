@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 8/11/2022 04:51",
+	"super" : "FFILibrary",
+	"category" : "LibStemmer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "FFILibStemmer",
+	"type" : "normal"
+}
