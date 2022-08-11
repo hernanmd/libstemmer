@@ -1,5 +1,5 @@
 accessing - platform
-winLibraryName
+win32LibraryName
 
 	^ FFIWindowsLibraryFinder new 
 		userPaths: { FileSystem workingDirectory };

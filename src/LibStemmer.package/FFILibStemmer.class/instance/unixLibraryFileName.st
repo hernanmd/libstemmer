@@ -1,4 +1,4 @@
 accessing - platform
 unixLibraryFileName
 
-	^ 'libstemmer.so'
+	^ 'libstmr.so'

@@ -1,4 +1,4 @@
 accessing - platform
 winLibraryFileName
 
-	^ 'libstemmer.dll'
+	^ 'libstmr.dll'
