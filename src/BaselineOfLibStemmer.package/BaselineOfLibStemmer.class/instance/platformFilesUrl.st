@@ -9,5 +9,5 @@ platformFilesUrl
 					ifTrue: [ 'libstmr_win.zip' ]
 					ifFalse: [ 
 						Smalltalk os isMacOS
-							ifTrue: [ 'libshoco_macos.zip' ]
-							ifFalse: [ 'libshoco_linux.zip' ] ]) ])
+							ifTrue: [ 'libstmr_macos.zip' ]
+							ifFalse: [ 'libstmr_linux.zip' ] ]) ])
