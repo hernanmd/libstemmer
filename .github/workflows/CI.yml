@@ -10,13 +10,14 @@ on:
   pull_request:
     branches: [ master ]
     paths-ignore: [ '**.md' ]
+  workflow_dispatch:  # Allows you to run this workflow manually from the Actions tab     
 
 jobs:
   build:
     strategy:
       matrix:
         smalltalk: [ Pharo64-10 ]
-        os: [ macos-latest, windows-latest, ubuntu-latest]
+        os: [ macos-latest, windows-latest ]
     runs-on: ${{ matrix.os }}
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
